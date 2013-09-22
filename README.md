@@ -3,6 +3,12 @@ speak
 
 Simple command line text-to-speech with caching using google translate
 
+How:
+
+chmod +x speak.sh
+./speak.sh -s "Hello world"
+./speak.sh -d -s "hello" -s "world"
+
 Why: To make speaking easier
 
 What: Call from command line to curl google translate engine to say someting to the default output device, aplay can be used for wav and mpg123 for mp3s
